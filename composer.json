@@ -1,0 +1,20 @@
+{   "name": "ongom/validator",
+    "description": "A PHP library for validating input",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PHPValidator\\": "src/code"
+        }
+    },
+    "authors": [
+        {
+            "name": "ongom felix"
+        }
+    ],
+    "minimum-stability": "stable", 
+    "keywards":["Validator","Validate"],
+    "require": {
+
+    }
+}
