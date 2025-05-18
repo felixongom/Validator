@@ -1,4 +1,4 @@
-# 📄 Validator
+# 📄 PHPValidator
 A flexible PHP validation class for validating strings, numbers, and files. It supports both static chaining and method chaining for clear and readable validation rules.
 
 ### ✅ Available Static Methods
