@@ -2,13 +2,16 @@
 A flexible PHP validation class for validating strings, numbers, and files. It supports both static chaining and method chaining for clear and readable validation rules.
 
 ### ✅ Available Static Methods
-```Validate::string($value)``` -Initialize validation for a string.
+the name spce id `use PHPValidator\Validate`
+```Validate::string($value, $fieldName)``` -Initialize validation for a string.
 
-```Validate::number($value)``` -Initialize validation for a number (int or float).
+```Validate::number($value, $fieldName)``` -Initialize validation for a number (int or float).
 
-```Validate::file($key, $source = null)```-Initialize validation for an uploaded file. ```$key``` is the name of the ```$_FILES array```. ```$source``` can be ```FILES``` or a custom file array (e.g. from an API).
+```Validate::file($key, $source = null, $fieldName = 'File')```-Initialize validation for an uploaded file. ```$key``` is the name of the ```$_FILES array```. ```$source``` can be ```FILES``` or a custom file array (e.g. from an API).
 
 ### 🔤 String Validation Methods
+
+```Validate::string($value, $fieldName)``` 
 | Method                  | Description                                                 |
 | ----------------------- | ----------------------------------------------------------- |
 | `->min_length($len)`    | Requires a minimum number of characters.                    |
