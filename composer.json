@@ -1,4 +1,4 @@
-{   "name": "ongom/php-alidator",
+{   "name": "ongom/php-validator",
     "description": "A PHP library for validating input",
     "type": "library",
     "license": "MIT",
